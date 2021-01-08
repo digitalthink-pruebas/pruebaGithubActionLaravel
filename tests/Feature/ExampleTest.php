@@ -20,6 +20,6 @@ class ExampleTest extends TestCase
 
         $response = $this->get('/error');
 
-        $response->assertStatus(200);
+        $response->assertStatus(404);
     }
 }
